@@ -40,8 +40,8 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-    background-color: rgb(65, 64, 64);
-    color: #fafafa;
+    background-color: #fafafa;
+    color: #401801;
 }
 header h1{
     width: 100%;
@@ -53,26 +53,22 @@ header h1{
 
 #craft-1{
     float: right;
-    margin: 0;
-    padding: 0 ;
-    border: none;
-    width: 20%;
-    height: 100px; 
-    position: absolute;
     right: 0px;  
 }
 #craft-2{
     float: left;
+    left: 0px;  
+}
+#craft-1, #craft-2{
     margin: 0;
     padding: 0 ;
     border: none;
     width: 20%;
     height: 100px; 
     position: absolute;
-    left: 0px;  
 }
 .active{
-    border-bottom: 2px solid rgb(65, 64, 64);
+    border-bottom: 2px solid #fafafa;
 }
 /* hero image and surrounding images and covers*/
 #hero{
@@ -91,7 +87,7 @@ header h1{
     height: auto;
     border-radius: 25px 0;
     top: 100px;
-    left: 400px;  
+    left: 250px;  
 }
 #cover-text-2{
     width: 250px;
@@ -177,5 +173,25 @@ header h1{
 }
 #welcome p{
     text-align: left;
-    padding: 0 10px;
+    padding: 0 20px;
 }
+/* rewards */
+#rewards{
+    background-color: #127500;
+    height: 200px;
+    width: 100%;
+}
+#rewards h2{
+    text-align: center;
+    color: #fafafa;
+    font-size: 30px;
+}
+#rewards p{
+    padding: 0 20px;
+    text-align: left;
+}
+#rewards-link{
+    text-align: center;
+    color: #fafafa;    
+}
+/*footer and social media links */
