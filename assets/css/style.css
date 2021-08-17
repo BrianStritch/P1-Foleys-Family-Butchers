@@ -195,3 +195,21 @@ header h1{
     color: #fafafa;    
 }
 /*footer and social media links */
+footer{
+    width: 100%;
+    height: auto;
+}
+footer p{
+    padding: 0 20px 0 0;
+}
+.social-media-links li{
+    display: inline;
+}
+.social-media-links{
+    font-size: 250%;
+    margin: 1%;
+    padding: 0 0 5px 0;
+    color: #fafafa;
+    letter-spacing: 100px;
+    text-align: center;    
+}
